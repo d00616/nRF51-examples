@@ -9,10 +9,8 @@ BOARD = BOARD_PCA10000
 
 #USE_SOFTDEVICE = s110
 
-#SDK_PATH = $(HOME)/Projects/nRF51SDK/Nordic/nrf51822/
-SDK_PATH = /home/frank/Projects/nRF51SDK/Nordic/nrf51822/
-#TEMPLATE_PATH = $(HOME)/Projects/nrf51-pure-gcc-setup/template/
-TEMPLATE_PATH = /home/frank/Projects/nrf51-pure-gcc-setup/template/
+SDK_PATH = $(HOME)/Projects/nRF51SDK/Nordic/nrf51822/
+TEMPLATE_PATH = $(HOME)/Projects/nrf51-pure-gcc-setup/template/
 
 CFLAGS = -Os
 

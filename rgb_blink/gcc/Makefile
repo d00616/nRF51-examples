@@ -4,9 +4,8 @@ BOARD := BOARD_PCA10000
 C_SOURCE_FILES += main.c
 C_SOURCE_FILES += nrf_delay.c
 
-OUTPUT_FILENAME := blinky_gcc
-SDK_PATH = ../../../../
-
+OUTPUT_FILENAME := rgb_blink
+SDK_PATH = $(HOME)/Projects/nRF51SDK/Nordic/nrf51822/
 
 #Uncomment correct line if you have softdevice programmed on the chip.
 DEVICE_VARIANT := xxaa
