@@ -57,6 +57,10 @@ int main(void)
     for (;;)
     {
      simple_uart_put(simple_uart_get());
+     nrf_gpio_pin_clear(LED_ERROR);
+     nrf_delay_ms(20);
+     nrf_gpio_pin_set(LED_ERROR);
+     nrf_delay_ms(20);
     }
 
 }
