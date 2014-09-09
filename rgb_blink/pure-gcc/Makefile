@@ -1,5 +1,6 @@
 # List all source files the application uses.
-APPLICATION_SRCS = $(notdir $(wildcard ../*.c))  nrf_delay.c
+APPLICATION_SRCS  = $(notdir $(wildcard ../*.c))
+APPLICATION_SRCS += nrf_delay.c
 # Use shell to find name of root folder. Possible but horrible to do in make.
 PROJECT_NAME = $(shell basename "$(realpath ../)")
 
